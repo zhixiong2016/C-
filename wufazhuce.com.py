@@ -32,7 +32,7 @@ if __name__ == '__main__':
         'Accept-Encoding': 'gzip, deflate',
         'Cookie': 'bdshare_firstime=1456041345958; Hm_lvt_a077b6b44aeefe3829d03416d9cb4ec3=1456041346; Hm_lpvt_a077b6b44aeefe3829d03416d9cb4ec3=1456048504',
     }
-    while(count<=1563):
+    while(count<=1563):#根据更新确定循环次数
         newurl = url + str(count)
         if(size(newurl)==200):
             data(newurl)
